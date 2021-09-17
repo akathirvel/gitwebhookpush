@@ -1,0 +1,348 @@
+POST http://localhost:8080/
+Content-Type: application/json
+
+{
+  "push": {
+    "changes": [
+      {
+        "forced": false,
+        "old": {
+          "name": "master",
+          "links": {
+            "commits": {
+              "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commits/master"
+            },
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/refs/branches/master"
+            },
+            "html": {
+              "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/branch/master"
+            }
+          },
+          "default_merge_strategy": "merge_commit",
+          "merge_strategies": [
+            "merge_commit",
+            "squash",
+            "fast_forward"
+          ],
+          "type": "branch",
+          "target": {
+            "rendered": {},
+            "hash": "cb7cef9e9f928740898b0109172d8c931f13c49f",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/cb7cef9e9f928740898b0109172d8c931f13c49f"
+              },
+              "html": {
+                "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/cb7cef9e9f928740898b0109172d8c931f13c49f"
+              }
+            },
+            "author": {
+              "raw": "Alfredo Scaccialepre <alfredo.scaccialepre@sunrise.net>",
+              "type": "author",
+              "user": {
+                "display_name": "Alfredo Scaccialepre",
+                "uuid": "{b12c7e68-2685-483b-9a43-2c40dcf26f84}",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D/"
+                  },
+                  "avatar": {
+                    "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5aeff73923dd942d56d98404/7765f031-ad29-4b1a-a165-39d959a8e498/128"
+                  }
+                },
+                "type": "user",
+                "nickname": "scaccia",
+                "account_id": "5aeff73923dd942d56d98404"
+              }
+            },
+            "summary": {
+              "raw": "added trigger function\n",
+              "markup": "markdown",
+              "html": "<p>added trigger function</p>",
+              "type": "rendered"
+            },
+            "parents": [
+              {
+                "hash": "4e3951888773f4f0fc8fc6f68d953d573453e33b",
+                "type": "commit",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/4e3951888773f4f0fc8fc6f68d953d573453e33b"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/4e3951888773f4f0fc8fc6f68d953d573453e33b"
+                  }
+                }
+              }
+            ],
+            "date": "2021-04-22T11:05:09+00:00",
+            "message": "added trigger function\n",
+            "type": "commit",
+            "properties": {}
+          }
+        },
+        "links": {
+          "commits": {
+            "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commits?include=a69ba3727bae32e4e741fb6e92d92e04d539e61a&exclude=cb7cef9e9f928740898b0109172d8c931f13c49f"
+          },
+          "html": {
+            "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/branches/compare/a69ba3727bae32e4e741fb6e92d92e04d539e61a..cb7cef9e9f928740898b0109172d8c931f13c49f"
+          },
+          "diff": {
+            "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/diff/a69ba3727bae32e4e741fb6e92d92e04d539e61a..cb7cef9e9f928740898b0109172d8c931f13c49f"
+          }
+        },
+        "created": false,
+        "commits": [
+          {
+            "rendered": {},
+            "hash": "a69ba3727bae32e4e741fb6e92d92e04d539e61a",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              },
+              "comments": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/a69ba3727bae32e4e741fb6e92d92e04d539e61a/comments"
+              },
+              "patch": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/patch/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              },
+              "html": {
+                "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              },
+              "diff": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/diff/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              },
+              "approve": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/a69ba3727bae32e4e741fb6e92d92e04d539e61a/approve"
+              },
+              "statuses": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/a69ba3727bae32e4e741fb6e92d92e04d539e61a/statuses"
+              }
+            },
+            "author": {
+              "raw": "Alfredo Scaccialepre <alfredo.scaccialepre@sunrise.net>",
+              "type": "author",
+              "user": {
+                "display_name": "Alfredo Scaccialepre",
+                "uuid": "{b12c7e68-2685-483b-9a43-2c40dcf26f84}",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D/"
+                  },
+                  "avatar": {
+                    "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5aeff73923dd942d56d98404/7765f031-ad29-4b1a-a165-39d959a8e498/128"
+                  }
+                },
+                "type": "user",
+                "nickname": "scaccia",
+                "account_id": "5aeff73923dd942d56d98404"
+              }
+            },
+            "summary": {
+              "raw": "removed github secret\n",
+              "markup": "markdown",
+              "html": "<p>removed github secret</p>",
+              "type": "rendered"
+            },
+            "parents": [
+              {
+                "hash": "cb7cef9e9f928740898b0109172d8c931f13c49f",
+                "type": "commit",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/cb7cef9e9f928740898b0109172d8c931f13c49f"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/cb7cef9e9f928740898b0109172d8c931f13c49f"
+                  }
+                }
+              }
+            ],
+            "date": "2021-04-22T11:17:48+00:00",
+            "message": "removed github secret\n",
+            "type": "commit",
+            "properties": {}
+          }
+        ],
+        "truncated": false,
+        "closed": false,
+        "new": {
+          "name": "master",
+          "links": {
+            "commits": {
+              "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commits/master"
+            },
+            "self": {
+              "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/refs/branches/master"
+            },
+            "html": {
+              "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/branch/master"
+            }
+          },
+          "default_merge_strategy": "merge_commit",
+          "merge_strategies": [
+            "merge_commit",
+            "squash",
+            "fast_forward"
+          ],
+          "type": "branch",
+          "target": {
+            "rendered": {},
+            "hash": "a69ba3727bae32e4e741fb6e92d92e04d539e61a",
+            "links": {
+              "self": {
+                "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              },
+              "html": {
+                "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/a69ba3727bae32e4e741fb6e92d92e04d539e61a"
+              }
+            },
+            "author": {
+              "raw": "Alfredo Scaccialepre <alfredo.scaccialepre@sunrise.net>",
+              "type": "author",
+              "user": {
+                "display_name": "Alfredo Scaccialepre",
+                "uuid": "{b12c7e68-2685-483b-9a43-2c40dcf26f84}",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/users/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D/"
+                  },
+                  "avatar": {
+                    "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5aeff73923dd942d56d98404/7765f031-ad29-4b1a-a165-39d959a8e498/128"
+                  }
+                },
+                "type": "user",
+                "nickname": "scaccia",
+                "account_id": "5aeff73923dd942d56d98404"
+              }
+            },
+            "summary": {
+              "raw": "removed github secret\n",
+              "markup": "markdown",
+              "html": "<p>removed github secret</p>",
+              "type": "rendered"
+            },
+            "parents": [
+              {
+                "hash": "cb7cef9e9f928740898b0109172d8c931f13c49f",
+                "type": "commit",
+                "links": {
+                  "self": {
+                    "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops/commit/cb7cef9e9f928740898b0109172d8c931f13c49f"
+                  },
+                  "html": {
+                    "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops/commits/cb7cef9e9f928740898b0109172d8c931f13c49f"
+                  }
+                }
+              }
+            ],
+            "date": "2021-04-22T11:17:48+00:00",
+            "message": "removed github secret\n",
+            "type": "commit",
+            "properties": {}
+          }
+        }
+      }
+    ]
+  },
+  "actor": {
+    "display_name": "Alfredo Scaccialepre",
+    "uuid": "{b12c7e68-2685-483b-9a43-2c40dcf26f84}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/users/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D"
+      },
+      "html": {
+        "href": "https://bitbucket.org/%7Bb12c7e68-2685-483b-9a43-2c40dcf26f84%7D/"
+      },
+      "avatar": {
+        "href": "https://avatar-management--avatars.us-west-2.prod.public.atl-paas.net/5aeff73923dd942d56d98404/7765f031-ad29-4b1a-a165-39d959a8e498/128"
+      }
+    },
+    "type": "user",
+    "nickname": "scaccia",
+    "account_id": "5aeff73923dd942d56d98404"
+  },
+  "repository": {
+    "scm": "git",
+    "website": null,
+    "uuid": "{ff0c0eed-724d-4e32-925d-67566a6320c0}",
+    "links": {
+      "self": {
+        "href": "https://api.bitbucket.org/2.0/repositories/sunrisedigitalbusiness/firebase-devops"
+      },
+      "html": {
+        "href": "https://bitbucket.org/sunrisedigitalbusiness/firebase-devops"
+      },
+      "avatar": {
+        "href": "https://bytebucket.org/ravatar/%7Bff0c0eed-724d-4e32-925d-67566a6320c0%7D?ts=default"
+      }
+    },
+    "project": {
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/workspaces/sunrisedigitalbusiness/projects/GCP"
+        },
+        "html": {
+          "href": "https://bitbucket.org/sunrisedigitalbusiness/workspace/projects/GCP"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/user/sunrisedigitalbusiness/projects/GCP/avatar/32?ts=1619087875"
+        }
+      },
+      "type": "project",
+      "name": "GCP devops",
+      "key": "GCP",
+      "uuid": "{3393cc02-0d9d-4188-b9a1-a1c3bb451e10}"
+    },
+    "full_name": "sunrisedigitalbusiness/firebase-devops",
+    "owner": {
+      "username": "sunrisedigitalbusiness",
+      "display_name": "SunriseDigitalBusiness",
+      "type": "team",
+      "uuid": "{b88cd426-7284-41fc-88d6-f80b3f1c9094}",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/teams/%7Bb88cd426-7284-41fc-88d6-f80b3f1c9094%7D"
+        },
+        "html": {
+          "href": "https://bitbucket.org/%7Bb88cd426-7284-41fc-88d6-f80b3f1c9094%7D/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/account/sunrisedigitalbusiness/avatar/"
+        }
+      }
+    },
+    "workspace": {
+      "slug": "sunrisedigitalbusiness",
+      "type": "workspace",
+      "name": "SunriseDigitalBusiness",
+      "links": {
+        "self": {
+          "href": "https://api.bitbucket.org/2.0/workspaces/sunrisedigitalbusiness"
+        },
+        "html": {
+          "href": "https://bitbucket.org/sunrisedigitalbusiness/"
+        },
+        "avatar": {
+          "href": "https://bitbucket.org/workspaces/sunrisedigitalbusiness/avatar/?ts=1591952721"
+        }
+      },
+      "uuid": "{b88cd426-7284-41fc-88d6-f80b3f1c9094}"
+    },
+    "type": "repository",
+    "is_private": true,
+    "name": "firebase-devops"
+  }
+}

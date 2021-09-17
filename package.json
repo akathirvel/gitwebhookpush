@@ -1,0 +1,14 @@
+{
+  "name": "build-trigger-pubsub-function",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npx functions-framework --target=aggregationLayerBitbucketEventPubSubFunction",
+    "deploy-cloud-run": "gcloud config set project nextjsproject-7b9be && gcloud functions deploy aggregationLayerCloudRunBitbucketEventPubSubFunction --runtime=nodejs14 --trigger-http --allow-unauthenticated --region=us-central1 --memory=128MB --security-level=secure-always --timeout=10s --entry-point handler --set-env-vars PUB_SUB_TOPIC=frontend-cloud-run-repo-event,ACTIVE_BRANCHES=master"
+  },
+  "dependencies": {
+    "@google-cloud/pubsub": "^2.0.0"
+  },
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^1.3.2"
+  }
+}
